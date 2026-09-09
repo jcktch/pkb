@@ -1,0 +1,42 @@
+site_name: jcktch/pkb
+site_url: https://mydomain.org/mysite
+repo_url: https://github.com/jcktch/pkb.git
+repo_name: jcktch/pkb
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: material
+  language: fr
+  icon:
+    logo: fontawesome/solid/terminal
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+
+nav:
+  - Index: index.md
+
+  - Catégorie:
+      - Section:
+          - Introduction: categorie/section/introduction.md
+
+          - Sous section:
+              - Titre page: setup/index.md
+
+          - Sous section:
+              - Titre page: update/update-manager.md
