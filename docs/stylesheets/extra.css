@@ -17,3 +17,9 @@
 .md-content__inner {
     max-width: none;
 }
+
+.md-content p {
+    text-align: justify;
+    hyphens: auto;
+    overflow-wrap: break-word;
+}

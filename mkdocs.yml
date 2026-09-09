@@ -17,17 +17,21 @@ theme:
 
     # Palette toggle for light mode
     - scheme: default
-      primary: black
       toggle:
         icon: material/toggle-switch
-        name: Switch to dark mode
+        name: Basculer en mode sombre
 
     # Palette toggle for dark mode
     - scheme: slate
-      primary: black
       toggle:
         icon: material/toggle-switch-off-outline
-        name: Switch to light mode
+        name: Basculer en mode clair
+
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 
 nav:
