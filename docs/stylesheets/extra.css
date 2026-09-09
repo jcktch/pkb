@@ -1,0 +1,19 @@
+/* Élargit toute la zone principale de MkDocs Material */
+.md-grid {
+    max-width: 100%;
+}
+
+/* Le contenu central prend davantage de place */
+.md-main__inner {
+    max-width: none;
+}
+
+/* Zone de documentation */
+.md-content {
+    max-width: none;
+}
+
+/* Évite que le texte soit limité par une largeur interne */
+.md-content__inner {
+    max-width: none;
+}

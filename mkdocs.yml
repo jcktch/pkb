@@ -9,6 +9,8 @@ extra_css:
 theme:
   name: material
   language: fr
+  features:
+    - navigation.tabs
   icon:
     logo: fontawesome/solid/terminal
   palette:
@@ -29,14 +31,24 @@ theme:
 
 
 nav:
-  - Index: index.md
+  - Accueil: index.md
 
-  - Catégorie:
-      - Section:
-          - Introduction: categorie/section/introduction.md
+  - Réseau:
+      - Introduction: reseau/index.md
+      - Protocoles:
+          - TCP/IP:
+              - Overview: reseau/protocoles/tcp-ip/page-01.md
+          - Sécurité:
+              - Update Manager: reseau/protocoles/securite/page-01.md
+          - Cisco :
+              - mainsail.cfg: reseau/protocoles/cisco/page-01.md
 
-          - Sous section:
-              - Titre page: setup/index.md
-
-          - Sous section:
-              - Titre page: update/update-manager.md
+  - Programmation:
+      - Introduction: programmation/index.md
+      - C:
+          - Variables:
+              - Overview: programmation/C/variables/page-01.md
+          - Conditions:
+              - Update Manager: programmation/C/conditions/page-01.md
+          - Boucles:
+              - mainsail.cfg: programmation/C/boucles/page-01.md
