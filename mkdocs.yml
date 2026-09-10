@@ -10,7 +10,7 @@ theme:
   name: material
   language: fr
   features:
-    - navigation.tabs
+    - navigation.sections
   icon:
     logo: fontawesome/solid/terminal
   palette:
@@ -37,7 +37,7 @@ markdown_extensions:
 nav:
   - Accueil: index.md
 
-  - Réseau:
+  - ENVIRONMENTS VULNÉRABLES:
       - Introduction: reseau/index.md
       - Protocoles:
           - TCP/IP:
